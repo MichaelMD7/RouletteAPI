@@ -1,0 +1,201 @@
+{
+	"id": "4a18e0a4-b39e-8384-846c-5c9ed0900738",
+	"name": "roulette",
+	"description": "",
+	"order": [
+		"91eff052-d9ef-3363-651f-8f1168630796",
+		"00818c78-7e6b-5ca3-b148-76e4d13f2425",
+		"570f4951-8f53-0896-64e6-51211f7679b8",
+		"caa2e4ca-2209-cbf2-8556-da05b69d8ba7",
+		"65eff136-d4ea-b00d-855d-daf76fcd7c07"
+	],
+	"folders_order": [],
+	"folders": [],
+	"owner": "14288097",
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "00818c78-7e6b-5ca3-b148-76e4d13f2425",
+			"name": "List Roulette",
+			"description": "",
+			"collectionId": "4a18e0a4-b39e-8384-846c-5c9ed0900738",
+			"method": "GET",
+			"headers": "Postman-Token: 73acec08-416c-472a-8706-f9ff3808dee4\ncache-control: no-cache\nuser: 1",
+			"data": [],
+			"rawModeData": "",
+			"tests": "",
+			"preRequestScript": "",
+			"url": "http://localhost:5000/api/roulette",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Postman-Token",
+					"value": "73acec08-416c-472a-8706-f9ff3808dee4"
+				},
+				{
+					"key": "cache-control",
+					"value": "no-cache"
+				},
+				{
+					"key": "user",
+					"value": "1"
+				}
+			],
+			"collection_id": "4a18e0a4-b39e-8384-846c-5c9ed0900738"
+		},
+		{
+			"id": "570f4951-8f53-0896-64e6-51211f7679b8",
+			"name": "Open Roulette",
+			"description": "",
+			"collectionId": "4a18e0a4-b39e-8384-846c-5c9ed0900738",
+			"method": "PUT",
+			"headers": "Postman-Token: 73acec08-416c-472a-8706-f9ff3808dee4\ncache-control: no-cache\nuser: 1",
+			"data": [],
+			"rawModeData": "",
+			"tests": "",
+			"preRequestScript": "",
+			"url": "http://localhost:5000/api/roulette/{{roulette_id}}/open",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Postman-Token",
+					"value": "73acec08-416c-472a-8706-f9ff3808dee4"
+				},
+				{
+					"key": "cache-control",
+					"value": "no-cache"
+				},
+				{
+					"key": "user",
+					"value": "1"
+				}
+			],
+			"collection_id": "4a18e0a4-b39e-8384-846c-5c9ed0900738"
+		},
+		{
+			"id": "65eff136-d4ea-b00d-855d-daf76fcd7c07",
+			"name": "close Roulette",
+			"description": "",
+			"collectionId": "4a18e0a4-b39e-8384-846c-5c9ed0900738",
+			"method": "PUT",
+			"headers": "Postman-Token: 73acec08-416c-472a-8706-f9ff3808dee4\ncache-control: no-cache\nuser: 1",
+			"data": [],
+			"rawModeData": "",
+			"tests": "",
+			"preRequestScript": "",
+			"url": "http://localhost:5000/api/roulette/{{roulette_id}}/close",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Postman-Token",
+					"value": "73acec08-416c-472a-8706-f9ff3808dee4"
+				},
+				{
+					"key": "cache-control",
+					"value": "no-cache"
+				},
+				{
+					"key": "user",
+					"value": "1"
+				}
+			],
+			"collection_id": "4a18e0a4-b39e-8384-846c-5c9ed0900738"
+		},
+		{
+			"id": "91eff052-d9ef-3363-651f-8f1168630796",
+			"name": "create Roulette",
+			"description": "",
+			"collectionId": "4a18e0a4-b39e-8384-846c-5c9ed0900738",
+			"method": "POST",
+			"headers": "Postman-Token: 73acec08-416c-472a-8706-f9ff3808dee4\ncache-control: no-cache\nuser: 1",
+			"data": [],
+			"rawModeData": "",
+			"tests": "pm.test(\"Your test name\", function () {\n    var jsonData = pm.response.json();\n    \n    pm.environment.set(\"roulette_id\", jsonData.id);\n});",
+			"preRequestScript": "",
+			"url": "http://localhost:5000/api/roulette",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Postman-Token",
+					"value": "73acec08-416c-472a-8706-f9ff3808dee4"
+				},
+				{
+					"key": "cache-control",
+					"value": "no-cache"
+				},
+				{
+					"key": "user",
+					"value": "1"
+				}
+			],
+			"collection_id": "4a18e0a4-b39e-8384-846c-5c9ed0900738"
+		},
+		{
+			"id": "caa2e4ca-2209-cbf2-8556-da05b69d8ba7",
+			"headers": "Postman-Token: 73acec08-416c-472a-8706-f9ff3808dee4\ncache-control: no-cache\nuser: 1\nContent-Type: application/json\nuser-id: 1234\n",
+			"headerData": [
+				{
+					"key": "Postman-Token",
+					"value": "73acec08-416c-472a-8706-f9ff3808dee4",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "cache-control",
+					"value": "no-cache",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "user",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "user-id",
+					"value": "1234",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/roulette/bf232f67-5f15-46f0-ac78-0cff296e6836/bet?",
+			"queryParams": [
+				{
+					"key": "",
+					"value": "10903825",
+					"enabled": false
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1617598704480,
+			"name": "bet roulette",
+			"description": "",
+			"collectionId": "4a18e0a4-b39e-8384-846c-5c9ed0900738",
+			"responses": [],
+			"rawModeData": "{\n\t\"position\":5,\n\t\"color\": \"red\",\n\t\"money\": 10\n}"
+		}
+	]
+}
