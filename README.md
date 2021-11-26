@@ -3,6 +3,7 @@
     1. Proyect TestMasivian
     2. Test from postman
     3. Load postman_collection.json 
+    4. Test
     
 ## URL
     1. POST http://localhost:5000/api/roulette  create roulette
